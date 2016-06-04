@@ -1,0 +1,30 @@
+.box {
+  background-color: gray;
+  float: left;
+  width: 40%;
+}
+.box-btc-group {
+  float: right;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 3%;
+  margin-right: 3%;
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  padding: 3%;
+
+}
+.box-description {
+  width: 60%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-right: 3%;
+  padding: 3%;
+  background-color: yellow;
+}
+.btc-button {
+  display: block;
+  margin-top: 3%;
+  margin-left: 20%
+}
