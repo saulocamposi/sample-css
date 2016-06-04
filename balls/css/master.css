@@ -1,0 +1,17 @@
+.background-ball{
+  background-color: yellow;
+}
+
+.size-ball{
+  width: 100px;
+  height: 100px;
+}
+
+.round-ball{
+  border-radius: 100px;
+}
+
+@keyframes example{
+  from {background-color: yellow}
+  to{background-color: red}
+}
