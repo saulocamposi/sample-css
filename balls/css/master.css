@@ -11,7 +11,20 @@
   border-radius: 100px;
 }
 
-@keyframes example{
-  from {background-color: yellow}
-  to{background-color: red}
+.animation-ball{
+  animation-name: ball;
+  animation-duration: 10s;
+}
+
+
+
+@keyframes ball{
+  from {
+    margin-left: 1%;
+    background-color: yellow;
+  }
+  to{
+    margin-left: 100%;
+    background-color: red;
+  }
 }
