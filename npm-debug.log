@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/saulera/.nvm/versions/node/v5.8.0/bin/node',
+1 verbose cli   '/home/saulera/.nvm/versions/node/v5.8.0/bin/npm',
+1 verbose cli   'config',
+1 verbose cli   'get',
+1 verbose cli   'prefix' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 verbose stack Error: EACCES: permission denied, scandir '/home/saulera/w_main/w_html'
+4 verbose stack     at Error (native)
+5 verbose cwd /home/saulera/w_main/w_html
+6 error Linux 3.19.0-58-generic
+7 error argv "/home/saulera/.nvm/versions/node/v5.8.0/bin/node" "/home/saulera/.nvm/versions/node/v5.8.0/bin/npm" "config" "get" "prefix"
+8 error node v5.8.0
+9 error npm  v3.7.3
+10 error path /home/saulera/w_main/w_html
+11 error code EACCES
+12 error errno -13
+13 error syscall scandir
+14 error Error: EACCES: permission denied, scandir '/home/saulera/w_main/w_html'
+14 error     at Error (native)
+14 error  { [Error: EACCES: permission denied, scandir '/home/saulera/w_main/w_html']
+14 error   errno: -13,
+14 error   code: 'EACCES',
+14 error   syscall: 'scandir',
+14 error   path: '/home/saulera/w_main/w_html' }
+15 error Please try running this command again as root/Administrator.
+16 verbose exit [ -13, true ]
