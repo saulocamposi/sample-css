@@ -1,0 +1,18 @@
+.column_one {
+  background-color: red;
+  max-width: 50%;
+  height: 30%;
+  float: left;
+}
+.column_two {
+  background-color: blue;
+  max-width: 20%;
+  height: 30%;
+  float: left;
+}
+.column_three {
+  background-color: yellow;
+  max-width: 50%;
+  height: 30%;
+float: right;
+}

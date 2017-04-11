@@ -1,0 +1,30 @@
+.background-ball{
+  background-color: yellow;
+}
+
+.size-ball{
+  width: 100px;
+  height: 100px;
+}
+
+.round-ball{
+  border-radius: 100px;
+}
+
+.animation-ball{
+  animation-name: ball;
+  animation-duration: 10s;
+}
+
+
+
+@keyframes ball{
+  from {
+    margin-left: 1%;
+    background-color: yellow;
+  }
+  to{
+    margin-left: 100%;
+    background-color: red;
+  }
+}
