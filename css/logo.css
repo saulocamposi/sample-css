@@ -1,0 +1,10 @@
+.logo{
+  background-image: url('https://avatars3.githubusercontent.com/u/5776988?v=3&s=460');
+  margin: 1%;
+  width: 4%;
+  height: 50px;
+  background-size: 100px 100px;
+  display: block;
+  border-radius: 50%;
+  float: left;
+}
