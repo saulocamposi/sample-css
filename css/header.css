@@ -1,5 +1,35 @@
-.header{
-  background: #ff6e7f; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff6e7f, #bfe9ff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff6e7f, #bfe9ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+@import "menu.css";
+@import "logo.css";
+
+.header-extra{
+}
+
+.body-header-extra p {
+  color: white;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+.body-header-extra{
+  width: 60%;
+  background-color: grey;
+  display: block;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-main {
+    border-bottom: solid 1px;
+    display: block;
+    height: 80px;
+}
+
+.header-main p {
+  padding: 1%;
+}
+
+.body-width{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
