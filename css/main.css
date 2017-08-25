@@ -1,3 +1,13 @@
-.main{
-  height: 80%;
+.box-explain{
+  top: 10%;
+  left: 60%;
+  position: absolute;
+  width: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.box-explain p{
+  margin: 10%;
 }
