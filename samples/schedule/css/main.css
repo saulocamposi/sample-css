@@ -19,8 +19,6 @@ table {
   background: red;
 }
 
-
-
 tr:nth-child(even) {
   background: #CCC;
 }
