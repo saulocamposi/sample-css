@@ -4,9 +4,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Mukta Mahee', sans-serif;
   /*display: grid;*/
 }
 
 .container{
   background-color: yellow;
+  width: 80%;
 }
